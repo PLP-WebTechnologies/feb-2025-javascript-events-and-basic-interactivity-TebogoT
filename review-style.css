@@ -1,0 +1,118 @@
+body {
+    background-color: rgba(20,21,25,255);
+    font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-card, .popup-card {
+    width: 18%;
+    padding: 20px;
+    background-color: #1F2630;
+    border-radius: 10px;
+}
+
+#star {
+    background-color: #282F39;
+    padding: 14px;
+    border-radius: 50%;
+    width: 5%;
+}
+
+h1, h2 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: grey;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#heading {
+    margin-top: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 20px;;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #282F39;
+    outline-style: none;
+    border: none;
+    color: grey
+}
+
+.btn-primary:hover {
+    background-color: rgb(251, 119, 20);
+    color: black;
+    transition: 0.3s;
+}
+
+.btn-primary:focus {
+    background-color: rgb(251, 119, 20);
+    color: white;
+}
+
+.btn-secondary, .rate-again, .finish  {
+    width: 100%;
+    font-size: 16px;
+    background-color: #1F2630;
+    color: rgb(251, 119, 20);
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: rgb(251, 119, 20) solid 1px;
+}
+
+.rate-again, .finish {
+    margin-top: 20px;
+}
+
+.btn-secondary:hover, .rate-again:hover, .finish:hover {
+    background-color: rgb(251, 119, 20);
+    color: white;
+    transition: 0.3s;
+}
+
+.hidden {
+    display: none;
+}
+
+.popup-content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.chose {
+    background-color: #282F39;
+    padding: 6px;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 8%;
+    color: rgb(251, 119, 20);
+}
+.owner {
+    margin-top: 100px;
+}

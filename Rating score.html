@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="review-style.css">
+<style>
+</style>
+
+<body class="background">
+    <div class="main-card">
+        <div id="star-border">
+            <img id="star" src="icon-star.svg" alt="star">
+        </div>
+        <!-- rating review -->
+        <h1 id="heading">How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering! </p>
+        <div class="flex-container">
+            <button class="btn-primary">1</button>
+            <button class="btn-primary">2</button>
+            <button class="btn-primary">3</button>
+            <button class="btn-primary">4</button>
+            <button class="btn-primary">5</button>
+        </div>
+        <button class="btn-secondary">Submit</button>
+    </div>
+
+    <!-- popup -->
+    <div id="modal" class="popup-card hidden">
+        <div class="popup-content">
+            <img id="thank-you" src="illustration-thank-you.svg" alt="thank you">
+            <p class="chose">You selected <span id="rating">5</span> out of 5</p>
+            <h2 id="heading-2">Thank you!</h2>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+        <button class="rate-again">Rate Again</button>
+        <button class="finish">Finish</button>
+    </div>
+    <div class="owner">
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by Mathaba Tebogo Mola
+    </div>
+    <script src="functionality.js"></script>   
+</body>
+</html>
